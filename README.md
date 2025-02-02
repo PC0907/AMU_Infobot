@@ -22,3 +22,23 @@ Ensure you have the following installed:
    ```sh
    git clone https://github.com/your-username/AMU-Infobot.git
    cd AMU-Infobot
+2. Create a virtual environment: (optional)
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. Install dependencies:
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+4. **Set up environment variables:**
+   - Create a `.env` file in the project directory.
+   - Add your Google API key:
+     ```env
+     GOOGLE_API_KEY=your_google_api_key
+     ```
+5. **Run the application:**
+   ```sh
+   streamlit run amu_infobot.py
+
+
+
